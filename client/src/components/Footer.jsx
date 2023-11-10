@@ -11,7 +11,9 @@ export default function Footer() {
 						<span className="text-slate-700 ml-1">Pro</span>
 					</h1>
 				</Link>
-				<p className="text-black text-xs p-2">Made with ♥️ </p>
+				<p className="text-black text-xs p-2">
+					&copy; 2023 StockTracker Pro. All rights reserved.
+				</p>
 			</div>
 		</footer>
 	);
