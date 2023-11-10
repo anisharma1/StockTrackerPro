@@ -6,6 +6,7 @@ import Register from "./pages/Register";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import PrivateRoute from "./components/PrivateRoute";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
 					<Route path="/profile" element={<Profile />} />
 				</Route>
 			</Routes>
+			<Footer />
 		</BrowserRouter>
 	);
 }
